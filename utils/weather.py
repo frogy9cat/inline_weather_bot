@@ -1,9 +1,11 @@
 import translate
 from pyowm import OWM
+from data.config import API_KEY
 
 def get_weather(place):
 
     owm = OWM('a9bb79421a0c8f4356078b8fe54d4911')
+    owm = OWM('API_KEY')
     mgr = owm.weather_manager()
 
     translator = translate.Translator("ru")
