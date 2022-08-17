@@ -3,7 +3,7 @@ from pyowm import OWM
 
 def get_weather(place):
 
-    owm = OWM('d6f20a20e277ffd2730c9abe97e35fbc')
+    owm = OWM('a9bb79421a0c8f4356078b8fe54d4911')
     mgr = owm.weather_manager()
 
     translator = translate.Translator("ru")
