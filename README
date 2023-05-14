@@ -4,4 +4,4 @@ Hello World!
 The all you need to make this bot work is change following:
 1. "BOT TOKEN", "ADMINS" and "API_KEY" in data/config.py
 2. "url" in keyboards/inline/InlineAbout.py
-3. 
+
