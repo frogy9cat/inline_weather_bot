@@ -12,7 +12,7 @@ async def weather_tashkent(inline_query: InlineQuery):
     item = InlineQueryResultArticle(
         id = result_id,
         title = f"{text}",
-        description = f"Погода в городе/стране {text}...",
+        description = f"{text}...",
         thumb_url="https://img2.freepng.ru/20180414/pkq/kisspng-weather-computer-icons-weather-5ad204f41ba772.4298522015237132681133.jpg",
         input_message_content = InputTextMessageContent(get_weather(text))
     )
