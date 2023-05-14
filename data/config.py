@@ -6,6 +6,7 @@
 # IP = str(os.environ.get("ip"))  # Xosting ip manzili
 
 
-BOT_TOKEN='5508493889:AAGAN0qXkHqamHj47COhYlPxOg0C87SfazM'
-ADMINS=['486178287']
+BOT_TOKEN='{BOT TOKEN}'
+ADMINS=['{USER ID}']
 ip='localhost'
+API_KEY='{API FROM OWM ACCAUNT}'
